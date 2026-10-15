@@ -1,0 +1,8 @@
+{
+  "study_id": "DEMO-BT-01",
+  "purpose": "密度と添加量の交絡を検討するための試行設計（例示のみ）",
+  "factors": {"dopant_mol_pct": [0.2, 0.8], "firing_temp_c": [1250, 1300]},
+  "independent_replicates": 2,
+  "seed": 17,
+  "human_approval_required": true
+}

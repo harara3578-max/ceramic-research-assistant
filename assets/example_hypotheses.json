@@ -1,0 +1,13 @@
+{
+  "study_id": "DEMO-BT-01",
+  "observations": [
+    {"id": "O1", "statement": "例示データで添加量増加と誘電率低下が同時に観測された", "sample_ids": ["A01", "B01", "C01"], "source": "assets/example_experiments.csv"},
+    {"id": "O2", "statement": "例示データで添加量増加と相対密度低下が同時に観測された", "sample_ids": ["A02", "B02", "C02"], "source": "assets/example_experiments.csv"}
+  ],
+  "hypotheses": [
+    {"id": "H1", "claim": "気孔率増大が誘電率低下の一因である", "mechanism": "気孔により見かけの誘電応答が低下", "supporting_observation_ids": ["O1", "O2"], "contradicting_observation_ids": [], "missing_evidence": "密度を一致させた試料の誘電率", "alternative_explanations": ["粒径変化", "副相形成"], "distinguishing_prediction": "密度を揃えると誘電率差が縮まる", "falsification_condition": "密度を揃えても同程度の差が再現されれば単独原因説は弱まる", "proposed_test": "密度を近づけた試料で誘電率を比較", "limitations": "組成と粒径が交絡"},
+    {"id": "H2", "claim": "粒径変化が誘電率差に寄与する", "mechanism": "粒界・ドメインの寄与が変化", "supporting_observation_ids": ["O1"], "contradicting_observation_ids": [], "missing_evidence": "粒径分布と密度を揃えた比較", "alternative_explanations": ["気孔率", "欠陥化学"], "distinguishing_prediction": "粒径依存が組成と密度の制御後も残る", "falsification_condition": "粒径を変えても差が再現しなければ当該寄与の根拠が弱まる", "proposed_test": "SEMで粒径分布を測定し密度一定試料で比較", "limitations": "粒径と添加量の同時変化"},
+    {"id": "H3", "claim": "計測条件または試料調製の系統差が見かけの差を作る", "mechanism": "電極・厚み・測定誤差が値に影響", "supporting_observation_ids": [], "contradicting_observation_ids": [], "missing_evidence": "測定原票、厚み、電極条件、装置校正", "alternative_explanations": ["密度低下", "結晶相変化"], "distinguishing_prediction": "独立な再測定で変化の一部が縮小する", "falsification_condition": "測定条件と校正を統一しても再現すれば説明力が下がる", "proposed_test": "ブラインド再測定と測定治具点検", "limitations": "測定ログが例示データに含まれない"}
+  ],
+  "overall_limitations": "このレコードは全て架空のデータに基づく。機構は未検証。"
+}
