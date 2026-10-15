@@ -1,0 +1,10 @@
+電子セラミック統合Skill - 社内AI導入ガイド
+
+1. ZIPを社内のセキュリティ審査に通す。
+2. ZIPを解凍して ceramic-research-assistant フォルダを得る。
+3. 社内AIのSkillフォルダに置くか、Skillインポート機能で選択する。
+4. 「ceramic-research-assistantでこの実験結果を解析して、競合仮説と追加実験を提案して」と依頼する。
+5. Pythonが利用可能なら README_JA.md の各コマンドを実行する。
+
+注意：本Skillは他のSkillを自動でダウンロードしません。1つに統合された独立したSkillです。
+社内AI自身の外部通信を無効にするには、IT管理者によるネットワーク設定が必要です。

@@ -1,0 +1,10 @@
+sample_id,batch_id,material_system,dopant_mol_pct,firing_temp_c,hold_h,atmosphere,relative_density_pct,grain_size_um,epsilon_r,tan_delta,measurement_freq_hz,measurement_temp_c,notes
+A01,B01,BaTiO3-based,0.2,1300,2,air,96.8,2.4,2710,0.012,1000,25,fictional
+A02,B02,BaTiO3-based,0.2,1300,2,air,97.2,2.7,2820,0.011,1000,25,fictional
+A03,B03,BaTiO3-based,0.2,1300,2,air,96.7,2.5,2740,0.013,1000,25,fictional
+B01,B04,BaTiO3-based,0.5,1300,2,air,95.2,1.8,2410,0.014,1000,25,fictional
+B02,B05,BaTiO3-based,0.5,1300,2,air,95.0,1.7,2360,0.016,1000,25,fictional
+B03,B06,BaTiO3-based,0.5,1300,2,air,95.4,1.6,2390,0.015,1000,25,fictional
+C01,B07,BaTiO3-based,0.8,1300,2,air,92.5,1.1,2040,0.018,1000,25,fictional
+C02,B08,BaTiO3-based,0.8,1300,2,air,92.8,1.2,2110,0.020,1000,25,fictional
+C03,B09,BaTiO3-based,0.8,1300,2,air,93.1,1.2,2130,0.019,1000,25,fictional
